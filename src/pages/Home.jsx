@@ -55,6 +55,10 @@ const Home = () => {
         <section>
           <h2>Quick Tips</h2>
           <p>Discover quick tips for immediate jetlag relief.</p>
+          <p className=''>Discover quick tips for immediate jetlag relief.</p>
+          <p className=''>Discover quick tips for immediate jetlag relief.</p>
+          <p className=''>Discover quick tips for immediate jetlag relief.</p>
+          <p className=''>Discover quick tips for immediate jetlag relief.</p>
           {/* Additional tips or links */}
         </section>
 

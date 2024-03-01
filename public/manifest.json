@@ -1,5 +1,5 @@
 {
-    "short_name": "Sleep Syncer",
+    "short_name": "Jetlag X",
     "name": "Jetlag Management App",
     "icons": [
       {
@@ -37,6 +37,6 @@
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "background_color": "#2b2f5e"
   }
   

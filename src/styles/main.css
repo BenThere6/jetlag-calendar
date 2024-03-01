@@ -1,0 +1,16 @@
+:root {
+    background-color: #2b2f5e;
+    --main-text-color: #FFFFFF;
+    --secondary-text-color:#B0C4DE;
+
+    color: var(--secondary-text-color);
+}
+
+h1, h2, h3 {
+    color: var(--main-text-color);
+}
+
+a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
