@@ -9,17 +9,10 @@ const Header = () => {
         <header className="app-header">
             <HamburgerMenu />
             <div className="logo">
-                <Link to="/">Jetlag Management App</Link> {/* Adjust the link as needed */}
+                <div className='page-icon-container'>
+                    <Link to="/"><img className='page-icon' src='/icons/android-chrome-512x512.png'></img></Link>
+                </div>
             </div>
-            <nav className="navigation">
-                <ul>
-                    {/* <li><Link to="/">Home</Link></li> */}
-                    {/* <li><Link to="/trip-planning">Trip Planning</Link></li>
-                    <li><Link to="/sleep-schedule">Sleep Schedule</Link></li>
-                    <li><Link to="/meal-times">Meal Times</Link></li> */}
-                    {/* Add additional navigation links as needed */}
-                </ul>
-            </nav>
         </header>
     );
 };

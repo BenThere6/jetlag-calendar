@@ -14,3 +14,19 @@ a {
     color: var(--main-text-color);
     text-decoration: none;
 }
+
+.page-icon-container, .page-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.page-icon-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
