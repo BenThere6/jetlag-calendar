@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HamburgerMenu from './HamburgerMenu';
-// Import your CSS file if you have specific styles for the header
-// import './Header.css';
+
+import '../styles/Header.css';
 
 const Header = () => {
     return (

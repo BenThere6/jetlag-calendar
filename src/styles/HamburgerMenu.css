@@ -1,0 +1,23 @@
+.hamburger-menu {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    height: 100vh;
+    transition: right 0.3s ease;
+    overflow-x: hidden;
+}
+
+.hamburger-menu.open {
+    right: 0;
+}
+
+.ham-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+}
