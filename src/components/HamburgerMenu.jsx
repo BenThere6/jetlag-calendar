@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import './HamburgerMenu.css'; // Style as needed
+import '../styles/HamburgerMenu.css';
 
 const HamburgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,12 +10,11 @@ const HamburgerMenu = () => {
     };
 
     return (
-        <div className="hamburger-menu">
-            <button onClick={toggleMenu}>
-                {/* Icon or text for the menu button */}
+        <div>
+            <button className='ham-button' onClick={toggleMenu}>
                 Hamburger
             </button>
-            {isOpen && (
+            <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
                 <div className="menu-items">
                     <Link to="/" onClick={toggleMenu}>Home</Link>
                     <Link to="/trip-planning" onClick={toggleMenu}>Trip Planning</Link>
@@ -25,7 +24,7 @@ const HamburgerMenu = () => {
                     <Link to="/napping-guidelines" onClick={toggleMenu}>Napping Guidelines</Link>
                     <Link to="/relaxation-techniques" onClick={toggleMenu}>Relaxation Techniques</Link>
                 </div>
-            )}
+            </div>
         </div>
     );
 };
